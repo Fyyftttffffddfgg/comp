@@ -1,0 +1,80 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #166534; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #166534, #3e8158);
+    clip-path: ellipse(200% 1000% at 60% 40vmin);
+    
+
+
+  }
+  
+  
+  .Navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px; 
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+
+  .Navbar-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  
+  .Navbar-links a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .Navbar-links a:hover {
+    color: #a3e635; 
+  }
+  
+
+  .Navbar-search input {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: auto;
+    margin-right: auto;
+    justify-items: center;
+    justify-content: flex-start;
+    margin-right: auto;
+    
+  }
+  .Navbar-search{
+
+
+    justify-content: flex-start;
+    margin: 40px;
+  }
+.pro{
+display: flex;
+width: 40px; 
+height: 40px;
+margin-left: 10px;
+border:none;
+border-radius: 20px;
+
+}
+.pro:hover{
+    
+    cursor: pointer;
+
+}
